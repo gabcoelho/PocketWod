@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9801FD6D24367D1700E1F7F4 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD6C24367D1700E1F7F4 /* UIView+AutoLayout.swift */; };
+		9801FD702436876000E1F7F4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD6F2436876000E1F7F4 /* MainView.swift */; };
+		9801FD722436879600E1F7F4 /* WodCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD712436879600E1F7F4 /* WodCardCollectionViewCell.swift */; };
+		9801FD742436BF7500E1F7F4 /* heroWods.json in Resources */ = {isa = PBXBuildFile; fileRef = 9801FD732436BF7500E1F7F4 /* heroWods.json */; };
+		9801FD762436C12300E1F7F4 /* JsonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD752436C12300E1F7F4 /* JsonExtension.swift */; };
+		9801FD7E2438094D00E1F7F4 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD7D2438094D00E1F7F4 /* ListView.swift */; };
+		9801FD802438099C00E1F7F4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD7F2438099C00E1F7F4 /* ListViewController.swift */; };
+		9801FD8324380D5D00E1F7F4 /* PocketWod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD8124380D5D00E1F7F4 /* PocketWod.xcdatamodeld */; };
+		9801FD852438AA3500E1F7F4 /* FavoritesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD842438AA3500E1F7F4 /* FavoritesCollectionViewCell.swift */; };
+		9801FD87243D462A00E1F7F4 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD86243D462A00E1F7F4 /* MenuTableViewCell.swift */; };
+		9801FD89243D47C900E1F7F4 /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9801FD88243D47C900E1F7F4 /* MainModels.swift */; };
+		9801FD8C243D5D1700E1F7F4 /* homeWods.json in Resources */ = {isa = PBXBuildFile; fileRef = 9801FD8B243D5D1700E1F7F4 /* homeWods.json */; };
+		9801FD8F243DF5E400E1F7F4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98644FCB2436703000519EBA /* Info.plist */; };
+		9801FD90243DF5E800E1F7F4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98644FD62436703000519EBA /* Info.plist */; };
+		9801FD91243DFD7300E1F7F4 /* PocketWodTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 98644FC52436703000519EBA /* PocketWodTests.xctest */; };
+		9801FD92243DFD7900E1F7F4 /* PocketWodUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 98644FD02436703000519EBA /* PocketWodUITests.xctest */; };
+		9801FD94243E0D6A00E1F7F4 /* dbWods.json in Resources */ = {isa = PBXBuildFile; fileRef = 9801FD93243E0D6A00E1F7F4 /* dbWods.json */; };
+		98644FB32436702D00519EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98644FB22436702D00519EBA /* AppDelegate.swift */; };
+		98644FB72436702D00519EBA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98644FB62436702D00519EBA /* MainViewController.swift */; };
+		98644FBC2436703000519EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98644FBB2436703000519EBA /* Assets.xcassets */; };
+		98644FBF2436703000519EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98644FBD2436703000519EBA /* LaunchScreen.storyboard */; };
+		98644FCA2436703000519EBA /* PocketWodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98644FC92436703000519EBA /* PocketWodTests.swift */; };
+		98644FD52436703000519EBA /* PocketWodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98644FD42436703000519EBA /* PocketWodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98644FC62436703000519EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98644FA72436702D00519EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98644FAE2436702D00519EBA;
+			remoteInfo = Wods4U;
+		};
+		98644FD12436703000519EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98644FA72436702D00519EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98644FAE2436702D00519EBA;
+			remoteInfo = Wods4U;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9801FD6C24367D1700E1F7F4 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		9801FD6F2436876000E1F7F4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9801FD712436879600E1F7F4 /* WodCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WodCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		9801FD732436BF7500E1F7F4 /* heroWods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = heroWods.json; sourceTree = "<group>"; };
+		9801FD752436C12300E1F7F4 /* JsonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonExtension.swift; sourceTree = "<group>"; };
+		9801FD7D2438094D00E1F7F4 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		9801FD7F2438099C00E1F7F4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		9801FD8224380D5D00E1F7F4 /* Wod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wod.xcdatamodel; sourceTree = "<group>"; };
+		9801FD842438AA3500E1F7F4 /* FavoritesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCollectionViewCell.swift; sourceTree = "<group>"; };
+		9801FD86243D462A00E1F7F4 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		9801FD88243D47C900E1F7F4 /* MainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModels.swift; sourceTree = "<group>"; };
+		9801FD8B243D5D1700E1F7F4 /* homeWods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homeWods.json; sourceTree = "<group>"; };
+		9801FD93243E0D6A00E1F7F4 /* dbWods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dbWods.json; sourceTree = "<group>"; };
+		98644FAF2436702D00519EBA /* PocketWod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketWod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98644FB22436702D00519EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98644FB62436702D00519EBA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		98644FBB2436703000519EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98644FBE2436703000519EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98644FC02436703000519EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98644FC52436703000519EBA /* PocketWodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98644FC92436703000519EBA /* PocketWodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWodTests.swift; sourceTree = "<group>"; };
+		98644FCB2436703000519EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98644FD02436703000519EBA /* PocketWodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98644FD42436703000519EBA /* PocketWodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWodUITests.swift; sourceTree = "<group>"; };
+		98644FD62436703000519EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98644FAC2436702D00519EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98644FC22436703000519EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98644FCD2436703000519EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9801FD6B24367CEC00E1F7F4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9801FD6C24367D1700E1F7F4 /* UIView+AutoLayout.swift */,
+				9801FD752436C12300E1F7F4 /* JsonExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9801FD6E2436875500E1F7F4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9801FD8A243D5D0800E1F7F4 /* JSON */,
+				9801FD6F2436876000E1F7F4 /* MainView.swift */,
+				9801FD88243D47C900E1F7F4 /* MainModels.swift */,
+				98644FB62436702D00519EBA /* MainViewController.swift */,
+				9801FD712436879600E1F7F4 /* WodCardCollectionViewCell.swift */,
+				9801FD86243D462A00E1F7F4 /* MenuTableViewCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9801FD7A2437F20400E1F7F4 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				9801FD7D2438094D00E1F7F4 /* ListView.swift */,
+				9801FD7F2438099C00E1F7F4 /* ListViewController.swift */,
+				9801FD842438AA3500E1F7F4 /* FavoritesCollectionViewCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		9801FD8A243D5D0800E1F7F4 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				9801FD93243E0D6A00E1F7F4 /* dbWods.json */,
+				9801FD8B243D5D1700E1F7F4 /* homeWods.json */,
+				9801FD732436BF7500E1F7F4 /* heroWods.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		98644FA62436702D00519EBA = {
+			isa = PBXGroup;
+			children = (
+				98644FB12436702D00519EBA /* PocketWod */,
+				98644FC82436703000519EBA /* PocketWodTests */,
+				98644FD32436703000519EBA /* PocketWodUITests */,
+				98644FB02436702D00519EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98644FB02436702D00519EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98644FAF2436702D00519EBA /* PocketWod.app */,
+				98644FC52436703000519EBA /* PocketWodTests.xctest */,
+				98644FD02436703000519EBA /* PocketWodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98644FB12436702D00519EBA /* PocketWod */ = {
+			isa = PBXGroup;
+			children = (
+				9801FD7A2437F20400E1F7F4 /* List */,
+				9801FD6E2436875500E1F7F4 /* Main */,
+				9801FD6B24367CEC00E1F7F4 /* Common */,
+				98644FB22436702D00519EBA /* AppDelegate.swift */,
+				98644FBB2436703000519EBA /* Assets.xcassets */,
+				98644FBD2436703000519EBA /* LaunchScreen.storyboard */,
+				98644FC02436703000519EBA /* Info.plist */,
+				9801FD8124380D5D00E1F7F4 /* PocketWod.xcdatamodeld */,
+			);
+			path = PocketWod;
+			sourceTree = "<group>";
+		};
+		98644FC82436703000519EBA /* PocketWodTests */ = {
+			isa = PBXGroup;
+			children = (
+				98644FC92436703000519EBA /* PocketWodTests.swift */,
+				98644FCB2436703000519EBA /* Info.plist */,
+			);
+			path = PocketWodTests;
+			sourceTree = "<group>";
+		};
+		98644FD32436703000519EBA /* PocketWodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98644FD42436703000519EBA /* PocketWodUITests.swift */,
+				98644FD62436703000519EBA /* Info.plist */,
+			);
+			path = PocketWodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98644FAE2436702D00519EBA /* PocketWod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98644FD92436703000519EBA /* Build configuration list for PBXNativeTarget "PocketWod" */;
+			buildPhases = (
+				98644FAB2436702D00519EBA /* Sources */,
+				98644FAC2436702D00519EBA /* Frameworks */,
+				98644FAD2436702D00519EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketWod;
+			productName = Wods4U;
+			productReference = 98644FAF2436702D00519EBA /* PocketWod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98644FC42436703000519EBA /* PocketWodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98644FDC2436703000519EBA /* Build configuration list for PBXNativeTarget "PocketWodTests" */;
+			buildPhases = (
+				98644FC12436703000519EBA /* Sources */,
+				98644FC22436703000519EBA /* Frameworks */,
+				98644FC32436703000519EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98644FC72436703000519EBA /* PBXTargetDependency */,
+			);
+			name = PocketWodTests;
+			productName = Wods4UTests;
+			productReference = 98644FC52436703000519EBA /* PocketWodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98644FCF2436703000519EBA /* PocketWodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98644FDF2436703000519EBA /* Build configuration list for PBXNativeTarget "PocketWodUITests" */;
+			buildPhases = (
+				98644FCC2436703000519EBA /* Sources */,
+				98644FCD2436703000519EBA /* Frameworks */,
+				98644FCE2436703000519EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98644FD22436703000519EBA /* PBXTargetDependency */,
+			);
+			name = PocketWodUITests;
+			productName = Wods4UUITests;
+			productReference = 98644FD02436703000519EBA /* PocketWodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98644FA72436702D00519EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gabriela Coelho";
+				TargetAttributes = {
+					98644FAE2436702D00519EBA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					98644FC42436703000519EBA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 98644FAE2436702D00519EBA;
+					};
+					98644FCF2436703000519EBA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 98644FAE2436702D00519EBA;
+					};
+				};
+			};
+			buildConfigurationList = 98644FAA2436702D00519EBA /* Build configuration list for PBXProject "PocketWod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98644FA62436702D00519EBA;
+			productRefGroup = 98644FB02436702D00519EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98644FAE2436702D00519EBA /* PocketWod */,
+				98644FC42436703000519EBA /* PocketWodTests */,
+				98644FCF2436703000519EBA /* PocketWodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98644FAD2436702D00519EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9801FD94243E0D6A00E1F7F4 /* dbWods.json in Resources */,
+				9801FD742436BF7500E1F7F4 /* heroWods.json in Resources */,
+				98644FBF2436703000519EBA /* LaunchScreen.storyboard in Resources */,
+				98644FBC2436703000519EBA /* Assets.xcassets in Resources */,
+				9801FD8C243D5D1700E1F7F4 /* homeWods.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98644FC32436703000519EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9801FD8F243DF5E400E1F7F4 /* Info.plist in Resources */,
+				9801FD91243DFD7300E1F7F4 /* PocketWodTests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98644FCE2436703000519EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9801FD90243DF5E800E1F7F4 /* Info.plist in Resources */,
+				9801FD92243DFD7900E1F7F4 /* PocketWodUITests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98644FAB2436702D00519EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9801FD7E2438094D00E1F7F4 /* ListView.swift in Sources */,
+				9801FD852438AA3500E1F7F4 /* FavoritesCollectionViewCell.swift in Sources */,
+				98644FB72436702D00519EBA /* MainViewController.swift in Sources */,
+				9801FD8324380D5D00E1F7F4 /* PocketWod.xcdatamodeld in Sources */,
+				9801FD722436879600E1F7F4 /* WodCardCollectionViewCell.swift in Sources */,
+				9801FD702436876000E1F7F4 /* MainView.swift in Sources */,
+				9801FD802438099C00E1F7F4 /* ListViewController.swift in Sources */,
+				9801FD762436C12300E1F7F4 /* JsonExtension.swift in Sources */,
+				9801FD89243D47C900E1F7F4 /* MainModels.swift in Sources */,
+				9801FD6D24367D1700E1F7F4 /* UIView+AutoLayout.swift in Sources */,
+				98644FB32436702D00519EBA /* AppDelegate.swift in Sources */,
+				9801FD87243D462A00E1F7F4 /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98644FC12436703000519EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98644FCA2436703000519EBA /* PocketWodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98644FCC2436703000519EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98644FD52436703000519EBA /* PocketWodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98644FC72436703000519EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98644FAE2436702D00519EBA /* PocketWod */;
+			targetProxy = 98644FC62436703000519EBA /* PBXContainerItemProxy */;
+		};
+		98644FD22436703000519EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98644FAE2436702D00519EBA /* PocketWod */;
+			targetProxy = 98644FD12436703000519EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98644FBD2436703000519EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98644FBE2436703000519EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98644FD72436703000519EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98644FD82436703000519EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98644FDA2436703000519EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWLLZPW86Q;
+				INFOPLIST_FILE = "$(SRCROOT)/PocketWod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gac.PocketWod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98644FDB2436703000519EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWLLZPW86Q;
+				INFOPLIST_FILE = "$(SRCROOT)/PocketWod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gac.PocketWod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98644FDD2436703000519EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWLLZPW86Q;
+				INFOPLIST_FILE = Wods4UTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gac.Wods4UTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWod.app/PocketWod";
+			};
+			name = Debug;
+		};
+		98644FDE2436703000519EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWLLZPW86Q;
+				INFOPLIST_FILE = Wods4UTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gac.Wods4UTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWod.app/PocketWod";
+			};
+			name = Release;
+		};
+		98644FE02436703000519EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWLLZPW86Q;
+				INFOPLIST_FILE = Wods4UUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gac.Wods4UUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wods4U;
+			};
+			name = Debug;
+		};
+		98644FE12436703000519EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWLLZPW86Q;
+				INFOPLIST_FILE = Wods4UUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gac.Wods4UUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wods4U;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98644FAA2436702D00519EBA /* Build configuration list for PBXProject "PocketWod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98644FD72436703000519EBA /* Debug */,
+				98644FD82436703000519EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98644FD92436703000519EBA /* Build configuration list for PBXNativeTarget "PocketWod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98644FDA2436703000519EBA /* Debug */,
+				98644FDB2436703000519EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98644FDC2436703000519EBA /* Build configuration list for PBXNativeTarget "PocketWodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98644FDD2436703000519EBA /* Debug */,
+				98644FDE2436703000519EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98644FDF2436703000519EBA /* Build configuration list for PBXNativeTarget "PocketWodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98644FE02436703000519EBA /* Debug */,
+				98644FE12436703000519EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9801FD8124380D5D00E1F7F4 /* PocketWod.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9801FD8224380D5D00E1F7F4 /* Wod.xcdatamodel */,
+			);
+			currentVersion = 9801FD8224380D5D00E1F7F4 /* Wod.xcdatamodel */;
+			path = PocketWod.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98644FA72436702D00519EBA /* Project object */;
+}
